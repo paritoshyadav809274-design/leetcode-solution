@@ -5,17 +5,12 @@
 
 class Solution {
     public int maxSubArray(int[] nums) {
-     int maxsum=nums[0];
-     for(int i=0;i<nums.length;i++){
-         sum+=nums[i]; 
-     }
-
-     int sum=0;
-     
-     
-     int k=nums.length-1;
+        int currentsum=nums[0];
+        int maxsum=nums[0];
+        for(int i=1;i<nums.length;i++){
+            currentsum=Math.max(nums[i],currentsum+nums[i]);
+        }
     }
-         if(sum>maxsum) maxsum=sum;
-         if(sum<0) sum=0;
-     return maxsum;
+            maxsum=Math.max(currentsum,maxsum);
+         return maxsum;
 }
