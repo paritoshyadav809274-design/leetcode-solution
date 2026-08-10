@@ -1,0 +1,5 @@
+// Title: Minimum Total Price After Applying Discounts
+            // Difficulty: Unknown
+            // Language: undefined
+            // Link: https://leetcode.com/problems/minimum-total-price-after-applying-discounts/
+
