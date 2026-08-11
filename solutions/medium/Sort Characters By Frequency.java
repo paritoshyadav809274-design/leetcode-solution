@@ -3,6 +3,11 @@
             // Language: Java
             // Link: https://leetcode.com/problems/sort-characters-by-frequency/
 
+
+class Solution {
+    public String frequencySort(String s) {
+        HashMap<Character, Integer> map = new HashMap<>();
+        for (char ch : s.toCharArray()) {
             map.put(ch, map.getOrDefault(ch, 0) + 1);
         }
         List<Character> list = new ArrayList<>(map.keySet());
@@ -17,8 +22,3 @@
         }
         return result.toString();
     }
-    public String frequencySort(String s) {
-        HashMap<Character, Integer> map = new HashMap<>();
-        for (char ch : s.toCharArray()) {
-class Solution {
-
