@@ -3,15 +3,19 @@
             // Language: Java
             // Link: https://leetcode.com/problems/missing-number/
 
-class Solution {
     public int missingNumber(int[] nums) {
-        int xor = nums.length;
-
-        for (int i = 0; i < nums.length; i++) {
-            xor ^= i;
-            xor ^= nums[i];
+      Arrays.sort(nums);
+     int left=0;
+     int right=nums.length;
+     while(left<right){
+        if(nums[left]!=left){
+     }
+            return left;
         }
-
-        return xor;
+        else{
+            left++;
+        }
     }
+     return nums.length;
 }
+class Solution {
