@@ -1,0 +1,5 @@
+// Title: Number of Substrings Containing All Three Characters
+            // Difficulty: Unknown
+            // Language: undefined
+            // Link: https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/
+
