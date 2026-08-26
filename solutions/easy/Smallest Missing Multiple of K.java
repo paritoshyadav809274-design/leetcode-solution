@@ -3,6 +3,8 @@
             // Language: Java
             // Link: https://leetcode.com/problems/smallest-missing-multiple-of-k/
 
+class Solution {
+    public int missingMultiple(int[] nums, int k) {
      HashSet<Integer> set = new HashSet<>();
 
 for (int ele : nums) {
@@ -18,5 +20,3 @@ for (int i = 1; ; i++) {
 }
     }
 }
-    public int missingMultiple(int[] nums, int k) {
-class Solution {
