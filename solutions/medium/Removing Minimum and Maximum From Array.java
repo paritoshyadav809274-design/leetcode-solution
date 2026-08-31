@@ -3,6 +3,13 @@
             // Language: Java
             // Link: https://leetcode.com/problems/removing-minimum-and-maximum-from-array/
 
+class Solution {
+    public int minimumDeletions(int[] nums) {
+        int n = nums.length;
+        int minIndex = 0;
+        int maxIndex = 0;
+
+        for (int i = 1; i < n; i++) {
             if (nums[i] < nums[minIndex]) {
                 minIndex = i;
             }
@@ -15,10 +22,3 @@
         int right = Math.max(minIndex, maxIndex);
 
         int front = right + 1;
-        for (int i = 1; i < n; i++) {
-
-        int minIndex = 0;
-        int maxIndex = 0;
-        int n = nums.length;
-    public int minimumDeletions(int[] nums) {
-class Solution {
