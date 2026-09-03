@@ -8,8 +8,8 @@ class Solution {
        int sum=0;
        for(int i=0;i<s.length()-1;i++){
         int differ=Math.abs(s.charAt(i)-s.charAt(i+1));
-       }
-    }
         sum+=differ;
+       }
        return sum;
+    }
 }
