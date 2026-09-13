@@ -1,0 +1,5 @@
+// Title: Minimum Element After Replacement With Digit Sum
+            // Difficulty: Unknown
+            // Language: undefined
+            // Link: https://leetcode.com/problems/minimum-element-after-replacement-with-digit-sum/
+
