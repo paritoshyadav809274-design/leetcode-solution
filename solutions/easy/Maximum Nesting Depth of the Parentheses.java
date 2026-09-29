@@ -3,6 +3,11 @@
             // Language: Java
             // Link: https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/
 
+class Solution {
+    public int maxDepth(String s) {
+        int depth = 0;
+        int maxDepth = 0;
+
         for (char ch : s.toCharArray()) {
 
             if (ch == '(') {
@@ -17,8 +22,3 @@
 
         return maxDepth;
     }
-class Solution {
-    public int maxDepth(String s) {
-        int depth = 0;
-        int maxDepth = 0;
-
