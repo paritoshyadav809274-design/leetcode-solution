@@ -19,3 +19,6 @@ stack[++index] = i;
 } else {
 max = Math.max(max, i - stack[index]);
 }
+}
+}
+return max;  
