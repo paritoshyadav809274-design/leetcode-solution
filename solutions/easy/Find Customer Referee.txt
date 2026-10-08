@@ -1,0 +1,8 @@
+// Title: Find Customer Referee
+            // Difficulty: Easy
+            // Language: MySQL
+            // Link: https://leetcode.com/problems/find-customer-referee/
+
+SELECT NAME FROM CUSTOMER 
+WHERE referee_id !=2
+OR referee_id is null;
